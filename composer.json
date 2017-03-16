@@ -1,0 +1,21 @@
+{
+    "name": "gmdotnet/tools.server",
+    "description": "A suite of tools for web servers",
+    "type": "project",
+    "license": "OSL",
+    "authors": [
+        {
+            "name": "Giuseppe Morelli",
+            "email": "info@giuseppemorelli.net"
+        }
+    ],
+    "require": {
+        "phpmyadmin/phpmyadmin": "4.6.6"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://www.phpmyadmin.net/packages.json"
+        }
+    ]
+}
