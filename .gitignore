@@ -1,2 +1,4 @@
 /.idea
 /vendor/
+/cms/magento/n98-magerun
+/database/mysql/mysqltuner
