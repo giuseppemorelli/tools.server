@@ -12,7 +12,7 @@
 echo "## Create 'local.xml' file ##"
 cd "$PATHMAGENTO""app/etc/"
 if [ ! -f "$LOCALXML" ]; then
-    echo "Model "$LOCALXML" not found!"
+    echo "Model "$LOCALXML" not found!" >&2
     exit;
 else
     rm local.xml
