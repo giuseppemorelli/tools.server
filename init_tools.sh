@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
 
+wget https://getcomposer.org/composer.phar
+chmod +x ./composer.phar
+mv ./composer.phar ./php/composer
+
 # install dependency
-composer install
+php/composer install
 
 ## cms > magento > n98-magerun
 wget https://files.magerun.net/n98-magerun.phar
