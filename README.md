@@ -15,6 +15,7 @@ A suite of tools for web servers.
 - php
   - apc test file
   - phpinfo file
+  - composer
 - phpmyadmin (under vendor folder)
 - scripts
   - backups
@@ -23,10 +24,12 @@ A suite of tools for web servers.
   - docker
   - system  
   
-# Requisites
-
-- composer (get here [download](https://getcomposer.org/download/))
-
-# OS supported
+## Setup  
+  
+- Download and unzip last version (https://github.com/gmdotnet/tools.server/archive/master.zip) or clone the repository
+- From shell: `bash init_tools.sh` to start setup
+- Enjoy!
+  
+## OS supported
 
 - debian based (debian, ubuntu, linux mint etc...)
