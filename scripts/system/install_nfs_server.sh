@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 
 apt-get update
-apt-get install nfs-kernel-server nfs-common
-mkdir /mnt/nfs
-chown nobody:nogroup /mnt/nfs
-chmod 775 /mnt/nfs
+apt-get install -y nfs-kernel-server nfs-common
+mkdir /var/nfs/
+mkdir /var/nfs/rancher
+chown nobody:nogroup /var/nfs -R
 
-echo "
-/mnt/nfs * (rw,sync,no_subtree_check)
-/mnt/nfs * (rw,sync,fsid=0,crossmnt,no_subtree_check,no_root_squash)
-" > /etc/exports
+echo "/var/nfs *(fsid=0,rw,sync,no_root_squash,no_subtree_check)" >> /etc/exports
 
 service nfs-kernel-server restart
+exportfs -a
+
+# Use /rancher in your rancher-nfs server
