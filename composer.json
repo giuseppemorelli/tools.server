@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "phpmyadmin/phpmyadmin": "4.6.6",
+        "phpmyadmin/phpmyadmin": "4.7.3",
         "colinmollenhour/modman": "1.12"
     },
     "repositories": [

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c70f7fe62cebdb772b414ced9371de7e",
+    "content-hash": "d0d03a16513b002fad27744fb31188ff",
     "packages": [
         {
             "name": "colinmollenhour/modman",
@@ -39,10 +39,10 @@
         },
         {
             "name": "phpmyadmin/phpmyadmin",
-            "version": "4.6.6",
+            "version": "4.7.3",
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpmyadmin.net/phpMyAdmin/4.6.6/phpMyAdmin-4.6.6-all-languages.zip",
+                "url": "https://files.phpmyadmin.net/phpMyAdmin/4.7.3/phpMyAdmin-4.7.3-all-languages.zip",
                 "reference": null,
                 "shasum": null
             },
