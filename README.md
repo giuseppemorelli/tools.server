@@ -1,9 +1,7 @@
 # GMdotnet Server Tools
-
 A suite of tools for web servers.
 
 ## What it is inside
-
 - cms
   - magento
     - n98-magerun
@@ -12,6 +10,8 @@ A suite of tools for web servers.
 - database
   - mysql
     - mysqltuner
+- git
+  - gitignore_global [https://help.github.com/articles/ignoring-files/#create-a-global-gitignore](https://help.github.com/articles/ignoring-files/#create-a-global-gitignore)
 - php
   - apc test file
   - phpinfo file
@@ -25,15 +25,12 @@ A suite of tools for web servers.
   - system  
   
 ## Setup  
-  
-- Download and unzip last version (https://github.com/gmdotnet/tools.server/archive/master.zip) or clone the repository
+  - Download and unzip last version (https://github.com/gmdotnet/tools.server/archive/master.zip) or clone the repository
 - From shell: `bash init_tools.sh` to start setup
 - Enjoy!
 
 ### Quick setup
-
-- From shell `apt-get update && apt-get install git -y && git clone https://github.com/gmdotnet/tools.server.git`
+From shell `apt-get update && apt-get install git -y && git clone https://github.com/gmdotnet/tools.server.git`
   
 ## OS supported
-
 - debian based (debian, ubuntu, linux mint etc...)
