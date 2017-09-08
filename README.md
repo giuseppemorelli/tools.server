@@ -12,6 +12,9 @@ A suite of tools for web servers.
     - mysqltuner
 - git
   - gitignore_global [https://help.github.com/articles/ignoring-files/#create-a-global-gitignore](https://help.github.com/articles/ignoring-files/#create-a-global-gitignore)
+- guides
+  - jpegoptim
+  - optipng
 - php
   - apc test file
   - phpinfo file
@@ -22,7 +25,10 @@ A suite of tools for web servers.
     - backup databases
     - backup files
   - docker
-  - system  
+    - rancher-server setup
+  - gitlab
+    - gitlab-runners
+  - system
   
 ## Setup  
   - Download and unzip last version (https://github.com/gmdotnet/tools.server/archive/master.zip) or clone the repository
