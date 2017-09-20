@@ -14,6 +14,12 @@ mkdir ./cms/
 mkdir ./cms/magento
 mv ./n98-magerun.phar ./cms/magento/n98-magerun
 
+wget https://files.magerun.net/n98-magerun2.phar
+chmod +x ./n98-magerun2.phar
+mkdir ./cms/
+mkdir ./cms/magento
+mv ./n98-magerun2.phar ./cms/magento/n98-magerun2
+
 ## database > mysql
 wget http://mysqltuner.pl/ -O ./mysqltuner
 chmod +x ./mysqltuner
