@@ -1,5 +1,2 @@
 /vendor/
-/cms/magento/n98-magerun
-/cms/magento/n98-magerun2
-/database/mysql/mysqltuner
-/php/composer
+/bin/

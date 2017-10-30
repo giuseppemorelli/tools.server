@@ -5,6 +5,7 @@ A suite of tools for web servers.
 - cms
   - magento
     - n98-magerun
+    - n98-magerun2
     - config local script
     - modman (under vendor folder)
 - database
@@ -31,7 +32,7 @@ A suite of tools for web servers.
   - system
   
 ## Setup  
-  - Download and unzip last version (https://github.com/gmdotnet/tools.server/archive/master.zip) or clone the repository
+- Download and unzip last version (https://github.com/gmdotnet/tools.server/archive/master.zip) or clone the repository
 - From shell: `bash init_tools.sh` to start setup
 - Enjoy!
 
