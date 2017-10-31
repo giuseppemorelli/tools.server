@@ -7,6 +7,7 @@ if [ "$PHP" = "/usr/bin/php" ]; then
     ## composer
     wget https://getcomposer.org/composer.phar
     chmod +x ./composer.phar
+    mkdir ./bin/
     mv ./composer.phar ./bin/composer
 
     ## install dependency
