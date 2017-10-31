@@ -11,7 +11,7 @@ if [ "$PHP" = "/usr/bin/php" ]; then
     mv ./composer.phar ./bin/composer
 
     ## install dependency
-    php/composer install
+    bin/composer install
 
     ## n98-magerun
     wget https://files.magerun.net/n98-magerun.phar
