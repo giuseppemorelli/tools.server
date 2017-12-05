@@ -14,6 +14,10 @@ cache:flush
 config:set "web/unsecure/base_url" "${url}"
 config:set "web/secure/base_url" "${url}"
 
+! echo "Store URL 2"
+config:set "web/unsecure/base_url" "${url_store2}" --scope=websites --scope-id="${store_id2}"
+config:set "web/secure/base_url" "${url_store2}" --scope=websites --scope-id="${store_id2}"
+
 ! echo "Change email notification"
 config:set "trans_email/ident_general/email" "${email}"
 config:set "trans_email/ident_sales/email" "${email}"
