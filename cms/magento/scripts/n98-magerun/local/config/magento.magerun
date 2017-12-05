@@ -1,6 +1,6 @@
 ###########################
 ## MAGENTO CONFIGURATION ##
-## version 1.0.2         ##
+## version 1.1.0         ##
 ###########################
 
 ! echo "Disable cache"
@@ -13,13 +13,6 @@ cache:flush
 ! echo "Store URL"
 config:set "web/unsecure/base_url" "${url}"
 config:set "web/secure/base_url" "${url}"
-
-! echo "Store URL 2"
-config:set "web/unsecure/base_url" "${url_store2}" --scope=websites --scope-id="${store_id2}"
-config:set "web/secure/base_url" "${url_store2}" --scope=websites --scope-id="${store_id2}"
-
-! echo "Add user 'local'"
-admin:user:create local local@local local "Test User" "Test User"
 
 ! echo "Change email notification"
 config:set "trans_email/ident_general/email" "${email}"
@@ -38,12 +31,6 @@ config:set "sales_email/shipment/copy_to" "${email}"
 config:set "sales_email/shipment_comment/copy_to" "${email}"
 config:set "sales_email/creditmemo/copy_to" "${email}"
 config:set "sales_email/creditmemo_comment/copy_to" "${email}"
-
-! echo "Disable extensions"
-dev:module:disable MailUp_MailUpSync
-dev:module:disable FireGento_PerfectWatermarks
-dev:module:disable EbayEnterprise_MageLog
-dev:module:disable Cm_RedisSession
 
 ! echo "Magento config from yaml file"
 hs:ccd:import ${mage_config} ${mage_config_env}

@@ -1,0 +1,20 @@
+# magento htdocs
+MAGENTO_PATH="/var/www/project.com/htdocs/"
+# local.xml template
+MAGENTO_LOCALXML="local.xml.custom.template"
+# store url
+MAGENTO_URL="https://project.local/"
+#MAGENTO_URL2="https://project.local/"
+#MAGENTO_STORE_ID_2=3
+# magento base email
+MAGENTO_EMAIL="email@email.it"
+# magento backend config import/export
+MAGENTO_MAGE_CONFIG="/var/www/project.com/mage_config"
+# magento backend config environment
+MAGENTO_MAGE_CONFIG_ENV="vagrant/custom"
+# complete project path
+PROJECT_PATH="/var/www/project.com/"
+# n98magerun script path
+N98MAGERUN_SCRIPT="scripts/n98-magerun/local/magento.magerun"
+SANITIZE=false
+N98MAGERUN_SANITIZE_SCRIPT="scripts/n98-magerun/local/sanitize_mage.magerun"

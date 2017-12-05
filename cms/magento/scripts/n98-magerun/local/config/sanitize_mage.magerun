@@ -1,0 +1,42 @@
+# Clean table with specific website data
+! echo "delete log_visitor"
+db:query "TRUNCATE log_visitor"
+
+! echo "delete log_visitor_info"
+db:query "TRUNCATE log_visitor_info"
+
+! echo "delete core_session"
+db:query "TRUNCATE core_session"
+
+! echo "delete smtppro_email_log"
+db:query "TRUNCATE smtppro_email_log"
+
+! echo "delete report_event"
+db:query "TRUNCATE report_event"
+
+! echo "delete report_viewed_product_index"
+db:query "TRUNCATE report_viewed_product_index"
+
+! echo "delete sales_flat_order"
+db:query "DELETE FROM sales_flat_order WHERE 1"
+
+! echo "delete sales_flat_quote"
+db:query "DELETE FROM sales_flat_quote WHERE 1"
+
+! echo "delete sales_flat_invoice"
+db:query "DELETE FROM sales_flat_invoice WHERE 1"
+
+! echo "delete sales_flat_shipping"
+db:query "DELETE FROM sales_flat_shipment WHERE 1"
+
+! echo "delete sales_flat_creditmemo"
+db:query "DELETE FROM sales_flat_creditmemo WHERE 1"
+
+! echo "delete core_email_queue"
+db:query "DELETE FROM core_email_queue WHERE 1"
+
+! echo "delete cron_schedule"
+db:query "TRUNCATE cron_schedule"
+
+! echo "delete customer_entity"
+db:query "DELETE FROM customer_entity WHERE 1"
