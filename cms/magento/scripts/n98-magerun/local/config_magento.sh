@@ -25,6 +25,7 @@ cd "$MAGENTO_PATH"
 n98-magerun script -d url="$MAGENTO_URL" \
 -d email="$MAGENTO_EMAIL" -d mage_config="$MAGENTO_MAGE_CONFIG" \
 -d mage_config_env="$MAGENTO_MAGE_CONFIG_ENV" \
+-d cookie_domain="$MAGENTO_COOKIE_DOMAIN" \
 -d url_store2="$MAGENTO_URL2" -d store_id2="$MAGENTO_STORE_ID_2" \
 "$PROJECT_PATH""$N98MAGERUN_SCRIPT"
 

@@ -13,6 +13,7 @@ cache:flush
 ! echo "Store URL"
 config:set "web/unsecure/base_url" "${url}"
 config:set "web/secure/base_url" "${url}"
+config:set "web/cookie/cookie_domain" "${cookie_domain}"
 
 ! echo "Store URL 2"
 config:set "web/unsecure/base_url" "${url_store2}" --scope=websites --scope-id="${store_id2}"

@@ -4,6 +4,7 @@ MAGENTO_PATH="/var/www/project.com/htdocs/"
 MAGENTO_LOCALXML="local.xml.custom.template"
 # store url
 MAGENTO_URL="https://project.local/"
+MAGENTO_COOKIE_DOMAIN=".project.local"
 #MAGENTO_URL2="https://project.local/"
 #MAGENTO_STORE_ID_2=3
 # magento base email
