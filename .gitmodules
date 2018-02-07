@@ -1,0 +1,6 @@
+[submodule "cms/magento/modules/GMdotnet_MagerunAddons"]
+	path = cms/magento/modules/GMdotnet_MagerunAddons
+	url = https://github.com/gmdotnet/GMdotnet_MagerunAddons.git
+[submodule "cms/magento/modules/Elgentos_MagerunAddons"]
+	path = cms/magento/modules/Elgentos_MagerunAddons
+	url = https://github.com/peterjaap/magerun-addons.git
