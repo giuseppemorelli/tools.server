@@ -16,6 +16,6 @@ MAGENTO_MAGE_CONFIG_ENV="vagrant/custom"
 # complete project path
 PROJECT_PATH="/var/www/project.com/"
 # n98magerun script path
-N98MAGERUN_SCRIPT="scripts/n98-magerun/local/magento.magerun"
+N98MAGERUN_SCRIPT="scripts/n98-magerun/local/config/magento.magerun"
 SANITIZE=false
 N98MAGERUN_SANITIZE_SCRIPT="scripts/n98-magerun/local/sanitize_mage.magerun"
