@@ -17,4 +17,4 @@ docker run -d --name gitlab-runner --restart always \
     --volumes-from gitlab-runner-config \
     gitlab/gitlab-runner:latest
 
-docker exec -it gitlab-runner gitlab-runner register
+docker exec -it gitlab-runner gitlab-runner register --run-untagged
