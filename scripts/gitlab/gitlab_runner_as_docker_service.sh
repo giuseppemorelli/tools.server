@@ -7,6 +7,8 @@ docker pull busybox:latest
 docker stop gitlab-runner && docker rm gitlab-runner
 docker stop gitlab-runner-config && docker rm gitlab-runner-config
 
+sudo mkdir /etc/gitlab-runner
+
 docker run -d --name gitlab-runner-config \
     -v /etc/gitlab-runner \
     busybox:latest \
