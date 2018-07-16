@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
 apt-get update
 apt-get install git -y
 cd ~ && git clone https://github.com/gmdotnet/tools.server.git
