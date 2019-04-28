@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-
-#!/usr/bin/env bash
 DATE=`date +%Y%m%d-%H%M%S`
 
 cd ~/backup-db
