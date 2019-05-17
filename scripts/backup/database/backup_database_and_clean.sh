@@ -3,7 +3,7 @@ DATE=`date +%Y%m%d-%H%M%S`
 DBNAME=xxxxx
 
 cd ~/backup-db
-/usr/bin/mysqldump -u backup -p5ruc1K4eaQ34wCNr $DBNAME > $DBNAME.sql
+/usr/bin/mysqldump -u backup -p<password> $DBNAME > $DBNAME.sql
 tar cfz $DBNAME.sql.tar.gz $DBNAME.sql
 mv $DBNAME.sql.tar.gz $DBNAME-"$DATE".sql.tar.gz
 rm $DBNAME.sql
