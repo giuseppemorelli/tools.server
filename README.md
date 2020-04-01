@@ -1,2 +1,2 @@
 # GMdotnet Server Tools
-A suite of tools for web servers.
+A suite of tools for servers
